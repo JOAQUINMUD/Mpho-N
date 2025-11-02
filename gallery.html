@@ -1,0 +1,47 @@
+gallery.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Memories</title>
+  <style>
+    body {
+      background-color: #fff0f5;
+      text-align: center;
+      font-family: 'Poppins', sans-serif;
+      padding: 30px;
+    }
+    h1 {
+      color: red;
+      margin-bottom: 20px;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+      justify-items: center;
+    }
+    img {
+      width: 100%;
+      max-width: 250px;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      transition: transform 0.3s;
+    }
+    img:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <h1>Our Memories ❤</h1>
+  <div class="gallery">
+    <img src=  "WhatsApp Image 2025-11-02 at 19.20.52_31199dac.jpg" alt=""picture1>
+    <img src="WhatsApp Image 2025-11-02 at 19.20.51_cf815d82.jpg" alt="Picture 2">
+    <img src="WhatsApp Image 2025-11-02 at 19.20.52_b8d0ab80.jpg" alt="Picture 3">
+    <img src="WhatsApp Image 2025-11-02 at 19.20.53_b61e343b.jpg" alt="Picture 4">
+  </div>
+</body>
+</html>
